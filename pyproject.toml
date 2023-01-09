@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tkinter-example"
+version = "0.1.0"
+description = ""
+authors = ["hyunsungK <hyunsung.kim@avikus.ai>"]
+readme = "README.md"
+packages = [{include = "tkinter_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tk = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
